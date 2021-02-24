@@ -50,15 +50,20 @@
 
     <!-- search box part -->
     <div class="container mt-5">
-        <div class="row height d-flex justify-content-center">
+        <div class="row d-flex justify-content-center">
             <div class="col-md-6">
-                <div class="search"> 
-                    <i class="fa fa-search"></i> 
-                    <input type="text" class="form-control" placeholder="Search for Meal..."> 
-                    <button class="btn btn-primary">Search</button> 
+                <div class="search">
+                    <i class="fa fa-search"></i>
+                    <input type="text" id="food_name" class="form-control" placeholder="Search for Meal...">
+                    <button id="search_button" class="btn btn-primary">Search</button>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- food part -->
+    <div class="container mt-5">
+        <div class="row" id="food_item"></div>
     </div>
 
     <!-- JavaScript -->
