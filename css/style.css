@@ -64,3 +64,18 @@ a {
     width: 110px;
     background: #3B2D64;
 }
+
+/* card */
+.card-title {
+    text-align: center;
+}
+
+#food_info .card-title {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.list-title {
+    margin-left: 15px;
+}
